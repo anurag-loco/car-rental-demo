@@ -1,0 +1,78 @@
+.mark1 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--primary-500);
+  width: 8px;
+  height: 8px;
+}
+.mark {
+  border-radius: var(--br-51xl);
+  background-color: var(--color-royalblue-100);
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  justify-content: center;
+}
+.mark,
+.pickUp1,
+.pickUp2 {
+  display: flex;
+  align-items: center;
+}
+.pickUp2 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  width: 68px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.pickUp1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.locations1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.locationsChild {
+  align-self: stretch;
+}
+.locations {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.locations,
+.pickUp,
+.pickUp3 {
+  display: flex;
+  align-items: flex-start;
+}
+.pickUp3 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.pickUp {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-0);
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--semibold-type16-size);
+  color: var(--secondary-500);
+  font-family: var(--semibold-type16);
+}
+@media screen and (max-width: 420px) {
+  .pickUp {
+    flex: unset;
+    align-self: stretch;
+  }
+}

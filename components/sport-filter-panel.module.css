@@ -1,0 +1,126 @@
+.tYP {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  flex-shrink: 0;
+}
+.span {
+  color: var(--secondary-300);
+}
+.sport10TxtContainer {
+  line-break: anywhere;
+}
+.sport10 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+.sport {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ceklist {
+  cursor: pointer;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tYPE,
+.tYPE1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tYPE1 {
+  gap: var(--gap-13xl);
+  text-align: justify;
+  font-size: var(--semibold-type20-size);
+  color: var(--secondary-400);
+}
+.tYPE {
+  gap: var(--gap-9xl);
+}
+.person3 {
+  font-weight: 600;
+}
+.span8 {
+  font-weight: 500;
+  color: var(--secondary-300);
+}
+.orMore16Container,
+.person12 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+.orMore16Container {
+  font-weight: 600;
+}
+.max10000,
+.pRICERANGE1 {
+  align-self: stretch;
+  position: relative;
+}
+.max10000 {
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 24px;
+  flex-shrink: 0;
+}
+.filterPanel,
+.pRICERANGE {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: justify;
+  font-size: var(--semibold-type20-size);
+  color: var(--secondary-400);
+}
+.filterPanel {
+  background-color: var(--primary-0);
+  border-right: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 360px;
+  padding: var(--padding-13xl);
+  gap: var(--gap-37xl);
+  text-align: left;
+  font-size: var(--semibold-type12-size);
+  color: var(--secondary-300);
+  font-family: var(--semibold-type16);
+}
+@media screen and (max-width: 960px) {
+  .filterPanel {
+    display: none;
+    width: 360px;
+  }
+}

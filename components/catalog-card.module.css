@@ -1,0 +1,154 @@
+.koenigsegg,
+.sport {
+  position: relative;
+  line-height: 150%;
+}
+.koenigsegg {
+  letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
+  width: 128px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.sport {
+  font-size: var(--medium-type14-size);
+  letter-spacing: -0.02em;
+  color: var(--secondary-300);
+}
+.carName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.vuesaxboldheartIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.carNameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-98xl);
+}
+.carIcon,
+.l {
+  position: relative;
+}
+.carIcon {
+  width: 272px;
+  height: 84px;
+  object-fit: cover;
+}
+.l {
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.gasoline {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.carIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.capacity,
+.spesification {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.spesification {
+  gap: var(--gap-mid);
+}
+.day1,
+.spesification {
+  font-size: var(--medium-type14-size);
+  color: var(--secondary-300);
+}
+.dayTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.day,
+.price {
+  height: 44px;
+  display: flex;
+}
+.day {
+  position: relative;
+  align-items: center;
+  width: 128px;
+  flex-shrink: 0;
+}
+.price {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonRental,
+.rentNow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rentNow {
+  position: relative;
+  font-size: var(--semibold-type16-size);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: var(--semibold-type16);
+  color: var(--primary-0);
+  text-align: center;
+  width: 76px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.buttonRental {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-9xs);
+  width: 116px;
+  height: 44px;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.catalog1,
+.purchaseWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.catalog1 {
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-0);
+  width: 316px;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-3xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-27xl);
+  text-align: left;
+  font-size: var(--semibold-type20-size);
+  color: var(--secondary-500);
+  font-family: var(--semibold-type16);
+}

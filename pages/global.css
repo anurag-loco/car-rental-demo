@@ -21,13 +21,18 @@ body {
   --secondary-500: #1a202c;
   --color-gray-100: rgba(19, 19, 19, 0.6);
   --primary-500: #3563e9;
+  --color-royalblue-100: rgba(53, 99, 233, 0.3);
   --color-whitesmoke-100: #f6f7f9;
+  --color-whitesmoke-200: #f3f5f7;
   --secondary-300: #90a3bf;
   --information-500: #54a6ff;
+  --color-cornflowerblue-100: rgba(92, 175, 252, 0.3);
   --secondary-400: #596780;
   --color-lightsteelblue: rgba(195, 212, 233, 0.4);
+  --color-orangered: #ff4423;
 
   /* Gaps */
+  --gap-41xl: 60px;
   --gap-xl: 20px;
   --gap-base: 16px;
   --gap-13xl: 32px;
@@ -38,10 +43,17 @@ body {
   --gap-5xs: 8px;
   --gap-98xl: 117px;
   --gap-9xs: 4px;
+  --gap-19xl: 38px;
+  --gap-37xl: 56px;
   --gap-9xl: 28px;
+  --gap-xs: 12px;
   --gap-3xs: 10px;
+  --gap-106xl: 125px;
+  --gap-51xl: 70px;
+  --gap-21xl: 40px;
 
   /* Paddings */
+  --padding-41xl: 60px;
   --padding-5xl: 24px;
   --padding-3xl: 22px;
   --padding-xl: 20px;
@@ -55,4 +67,5 @@ body {
   --br-9xs: 4px;
   --br-51xl: 70px;
   --br-71xl: 90px;
+  --br-7xs: 6px;
 }

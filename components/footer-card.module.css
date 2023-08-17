@@ -1,0 +1,121 @@
+.logo1,
+.ourVisionIs {
+  position: relative;
+  line-height: 150%;
+}
+.logo1 {
+  letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
+  width: 148px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.ourVisionIs {
+  font-size: var(--semibold-type16-size);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 292px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--bold-type32-size);
+  color: var(--primary-500);
+}
+.howItWorks {
+  margin: 0;
+}
+.howItWorksContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.about1,
+.howItWorksContainer {
+  position: absolute;
+  top: 56px;
+  left: 0;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 152px;
+  height: 188px;
+  mix-blend-mode: normal;
+}
+.about1 {
+  top: 0;
+  font-size: var(--semibold-type20-size);
+  font-weight: 600;
+  color: var(--secondary-500);
+  height: 32px;
+}
+.about {
+  position: relative;
+  width: 152px;
+  height: 244px;
+}
+.links {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.morentAllRights,
+.privacyPolicy {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.morentAllRights {
+  text-align: left;
+  width: 292px;
+}
+.privacyPolicy {
+  width: 144px;
+}
+.footer,
+.legal {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.legal {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: right;
+  color: var(--secondary-500);
+}
+.footer {
+  background-color: var(--primary-0);
+  flex-direction: column;
+  padding: var(--padding-41xl);
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--semibold-type16-size);
+  color: var(--color-gray-100);
+  font-family: var(--semibold-type16);
+}
+@media screen and (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .morentAllRights {
+    width: 200px;
+  }
+}
