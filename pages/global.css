@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --semibold-type16: "Plus Jakarta Sans";
+
+  /* font sizes */
+  --semibold-type16-size: 16px;
+  --semibold-type20-size: 20px;
+  --bold-type32-size: 32px;
+  --medium-type14-size: 14px;
+  --semibold-type12-size: 12px;
+
+  /* Colors */
+  --primary-0: #fff;
+  --secondary-500: #1a202c;
+  --color-gray-100: rgba(19, 19, 19, 0.6);
+  --primary-500: #3563e9;
+  --color-whitesmoke-100: #f6f7f9;
+  --secondary-300: #90a3bf;
+  --information-500: #54a6ff;
+  --secondary-400: #596780;
+  --color-lightsteelblue: rgba(195, 212, 233, 0.4);
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-base: 16px;
+  --gap-13xl: 32px;
+  --gap-27xl: 46px;
+  --gap-6xl: 25px;
+  --gap-mid: 17px;
+  --gap-6xs: 7px;
+  --gap-5xs: 8px;
+  --gap-98xl: 117px;
+  --gap-9xs: 4px;
+  --gap-9xl: 28px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-3xl: 22px;
+  --padding-xl: 20px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-9xs: 4px;
+  --padding-13xl: 32px;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+  --br-51xl: 70px;
+  --br-71xl: 90px;
+}
